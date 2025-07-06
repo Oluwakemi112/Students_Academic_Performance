@@ -7,7 +7,7 @@ import joblib
 model = joblib.load('best_academic_performance_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
-st.title("🎓 Student Pass/Fail Prediction App")
+st.title("🎓 Student Academic Performance Prediction App")
 
 st.write("Enter student behaviour details below to predict if they are likely to pass or fail.")
 
